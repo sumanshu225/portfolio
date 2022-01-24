@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
   font-family: Quentin;
   src: url(/font/Quentin.otf);
-}
+} */
 
 * {
   margin: 0;
@@ -30,7 +30,7 @@ body {
   flex-direction: column;
   height: 100vh;
   position: relative;
-  background: url("/images/MacBook\ Pro\ -\ 46.png");
+  /* background: url("/images/MacBook\ Pro\ -\ 46.png"); */
   color: white;
 }
 
