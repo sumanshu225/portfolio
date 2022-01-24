@@ -1,0 +1,175 @@
+@font-face {
+  font-family: Quentin;
+  src: url(/font/Quentin.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Utility Class */
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+}
+.nunito-sans {
+  font-family: "Nunito Sans", sans-serif;
+}
+.rubik {
+  font-family: "Rubik", sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+.userName {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+  background: url("/images/MacBook\ Pro\ -\ 46.png");
+  color: white;
+}
+
+.userName h1 {
+  font-size: 8rem;
+  font-family: "Quentin";
+  text-align: center;
+}
+
+/* Button box */
+.buttonBox button {
+  border-radius: 2rem;
+  font-family: "Rubik", sans-serif;
+}
+
+.topbg {
+  height: 13rem;
+  /* border-top: 1px solid navy; */
+}
+
+.middlebg {
+  height: 50rem;
+}
+
+.bottombg {
+  height: 9.5rem;
+  position: absolute;
+  bottom: -5px;
+  z-index: -3;
+}
+
+/* Images */
+.images {
+  width: 90%;
+  margin: auto;
+  top: -5rem;
+  background-color: white;
+}
+
+.images img {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.images img:hover {
+  transform: scale(1.01);
+}
+/* Contact */
+.contact {
+  max-height: 120vh;
+  padding: 2rem 6rem 2rem 4rem;
+}
+.box {
+  /* border: 1px solid white; */
+  width: 15rem;
+  margin: 0.5rem auto;
+}
+.box img {
+  max-width: 100%;
+}
+.footer {
+  position: absolute;
+  /* bottom: 0; */
+  left: 0;
+  width: 100vw;
+  font-size: 0.8rem;
+  font-family: "Rubik", sans-serif;
+}
+
+/* Media Query */
+@media (max-width: 1450px) {
+  .middlebg {
+    height: 34rem;
+  }
+}
+@media (max-width: 1350px) {
+  .middlebg {
+    height: 30rem;
+  }
+}
+@media (max-width: 1250px) {
+  .middlebg {
+    height: 26rem;
+  }
+}
+@media (max-width: 1150px) {
+  .middlebg {
+    height: 22rem;
+  }
+}
+@media (max-width: 1050px) {
+  .middlebg {
+    height: 18rem;
+  }
+  .topbg {
+    height: 11rem;
+  }
+}
+@media (max-width: 890px) {
+  .middlebg {
+    height: 15rem;
+  }
+  .images {
+    top: 17%;
+  }
+}
+@media (max-width: 680px) {
+  .middlebg {
+    height: 12rem;
+  }
+  .images {
+    top: 17%;
+    left: 4%;
+    right: 4%;
+  }
+  .userName {
+    background-position: center;
+  }
+}
+@media (max-width: 550px) {
+  html {
+    font-size: 13px;
+  }
+  .middlebg {
+    height: 12rem;
+  }
+  .topbg {
+    height: 7rem;
+  }
+  .images {
+    top: 20%;
+    left: 4%;
+    right: 4%;
+  }
+  .contact {
+    padding: 1rem;
+  }
+}
+@media (max-width: 350px) {
+  .middlebg {
+    height: 8rem;
+  }
+}
